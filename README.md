@@ -1,17 +1,30 @@
-# org_fair
+# CICT Org Fair
 
-A new Flutter project.
+A Flutter application for the CICT Organization Fair. The app displays organization fair events and information retrieved dynamically from Contentful CMS.
 
-## Getting Started
+## Live Website
 
-This project is a starting point for a Flutter application.
+[Open CICT Org Fair](https://cj324.github.io/org-fair8/)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Displays upcoming organization fair events.
+- Retrieves event information from Contentful CMS.
+- Shows event details, schedules, venues, and cancellation status.
+- Displays application version information.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- Flutter
+- Dart
+- Contentful CMS
+- GitHub Actions
+- GitHub Pages
+
+## CI/CD
+
+GitHub Actions automatically runs Flutter tests when changes are pushed or pull requests are opened against the `main` branch. After changes are merged into `main`, the application is built and deployed to GitHub Pages.
+
+## Repository
+
+https://github.com/Cj324/org-fair8
